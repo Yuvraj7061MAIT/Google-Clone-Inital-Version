@@ -1,0 +1,81 @@
+/* Home.css */
+.Home {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    background-color: #ffffff; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font styling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding: 0 20px; /* Add some horizontal padding */
+}
+
+.home__header {
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between left and right sections */
+    padding: 20px 30px; /* Padding around the header */
+    background-color: white; /* White background for header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.home__headerLeft,
+.home__headerRight {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center icons and links vertically */
+}
+
+.home__header a {
+    text-decoration: none; /* Remove underline */
+    color: #555; /* Dark gray color for links */
+    margin: 0 15px; /* Spacing between links */
+    font-weight: bold; /* Bold text for visibility */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.home__header a:hover {
+    color: #1a73e8; /* Blue color on hover */
+}
+
+.home__headerRight {
+    display: flex; /* Flexbox for icons */
+    align-items: center; /* Center icons vertically */
+}
+
+.home__headerRight svg {
+    color: #555; /* Icon color */
+    margin-left: 15px; /* Space between icons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.home__headerRight svg:hover {
+    color: #1a73e8; /* Change color on hover */
+}
+
+.home__body {
+    flex: 1; /* Take remaining space */
+    display: flex; /* Flexbox for body layout */
+    flex-direction: column; /* Vertical stacking */
+    align-items: center; /* Center content horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    text-align: center; /* Center text */
+    padding: 200px; /* Padding for body */
+}
+
+
+
+.home__footer {
+    display: flex;
+    flex-direction: column; /* Stack footer items vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center; /* Center content vertically */
+    padding: 20px 30px; /* Padding for footer */
+    font-size: 14px; /* Smaller font for footer */
+    color: #312e2e; /* Dark gray color */
+    border-top: 1px solid #dcdcdc; /* Top border */
+    width: 100%; /* Full width */
+    height: 1px;
+    background-color: #f5f5f5; /* Match the background color */
+}
+

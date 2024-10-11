@@ -1,0 +1,43 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Ensure it takes full height of the viewport */
+  background-color: #f5f5f5; /* Light gray background */
+  font-family: Arial, sans-serif; /* Font styling */
+}
+
+.header {
+  display: flex; /* Flexbox for header */
+  justify-content: space-between; /* Space between header items */
+  align-items: center; /* Center vertically */
+  padding: 10px 20px; /* Padding for header */
+  background-color: white; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: sticky; /* Sticky header */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.header a {
+  text-decoration: none; /* Remove underline */
+  color: #555; /* Dark gray color for links */
+  margin: 0 15px; /* Spacing between links */
+  font-weight: bold; /* Bold text for visibility */
+  transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.header a:hover {
+  color: #1a73e8; /* Blue color on hover */
+}
+
+/* Styles for the main content area */
+.content {
+  flex: 1; /* Take remaining space */
+  display: flex; /* Flexbox for body layout */
+  flex-direction: column; /* Vertical stacking */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  padding: 20px; /* Padding for body */
+}
