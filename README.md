@@ -21,14 +21,8 @@ Welcome to the Google Search Clone project! This application replicates the func
   - Context API
   - Custom Reducers
 
-## 🚀 Getting Started
+```
 
-To get started with this project, follow the steps below:
-
-1. **Navigate to the project directory**:
-   ```bash
-   cd your-repo-name
-   ```
 
 2. **Install dependencies**:
    ```bash
