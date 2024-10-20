@@ -59,6 +59,6 @@ For any inquiries, feel free to reach out:
 
 - **Name**: Yuvraj Singh
 - **Email**: yuvraj.singh.mait@gmail.com
-- **LinkedIn**: [Yuvraj Singh]([https://www.linkedin.com/in/yuvraj-singh-ml/])
+- **LinkedIn**: [https://www.linkedin.com/in/yuvraj-singh-ml/]
 
 Happy coding! 🎉
