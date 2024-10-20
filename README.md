@@ -1,5 +1,3 @@
-Here's a professional and formatted README for your project, incorporating emojis to make it more engaging:
-
 ```markdown
 # 📱 Your Project Name: Google Search Clone
 
