@@ -1,5 +1,5 @@
 ```markdown
-# 📱 Your Project Name: Google Search Clone
+# 📱 Google Search Clone
 
 Welcome to the Google Search Clone project! This application replicates the functionality of Google Search, allowing users to search the web efficiently and view results in a clean interface. 🚀
 
